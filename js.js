@@ -1,8 +1,8 @@
 // Add an event listener to the calculator
-document.getElementById("my-calculator").addEventListener('submit', calculaterSubmit);
+document.getElementById("my-calculator").addEventListener('submit', calculatorSubmit);
 
 // Prevent the browser defeault, handle the calculator event
-function calculaterSubmit(event) {
+function calculatorSubmit(event) {
     event.preventDefault();
     var numOne = Number(document.getElementById("num-one").value);
     var numTwo = Number(document.getElementById("num-two").value);

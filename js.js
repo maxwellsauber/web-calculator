@@ -16,4 +16,4 @@ function calculatorSubmit(event) {
 //Add two numbers together... for now (-,*,% coming soon)
 function calculate(n1, n2){
     return n1 + n2;
-}
+} 

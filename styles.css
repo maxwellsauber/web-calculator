@@ -16,7 +16,7 @@ h1{
 input, label{
     display: block;
 }
-input{   
+input, select{   
     border-radius: 5px;
     font-size: 15px;
     height: 25px;

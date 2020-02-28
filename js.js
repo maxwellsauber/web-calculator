@@ -15,7 +15,6 @@ function calculatorSubmit(event) {
 
     //Obligatory HHGTTG Easter Egg
     var pageHTML = document.getElementsByTagName('html')[0]
-
     if(calculation === 42){
         pageHTML.className += 'hhgttg'
     }else{

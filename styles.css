@@ -37,7 +37,6 @@ input[type="submit"]{
 input[type="submit"]:hover{
     background-color: #6a9130;
 }
-
 #result{
     margin:15px 0;
     padding:15px;
@@ -45,4 +44,10 @@ input[type="submit"]:hover{
     text-align: center;
     border-top:1px solid #DF7A00;
     background-color: #FFF6F2;
+}
+.hhgttg{
+    background: transparent url("https://i.pinimg.com/originals/69/eb/c4/69ebc4a1bf12b3cf632a34ff7c5b5ca6.gif");
+}
+.hhgttg body{
+  opacity:0.7;
 }

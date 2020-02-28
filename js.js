@@ -12,11 +12,20 @@ function calculatorSubmit(event) {
     var calculation = calculate(numOne, numTwo, numOperator)
 
     result.innerHTML = calculation
-}
+
+    //Obligatory HHGTTG Easter Egg
+    var pageHTML = document.getElementsByTagName('html')[0]
+
+    if(calculation === 42){
+        pageHTML.className += 'hhgttg'
+    }else{
+        pageHTML.className = ''
+    }//End HHGTTG Egg
+    
+}//end Submit event handler
 
 //Calculate two numbers
 function calculate(n1, n2, operator){
-
    switch(operator){
        case 'add':
            return n1 + n2

@@ -28,13 +28,18 @@ function calculate(n1, n2, operator){
    switch(operator){
        case 'add':
            return n1 + n2
+           break
        case 'subtract':
            return n1 - n2
+           break
        case 'multiply':
            return n1 * n2
+           break
        case 'devide':
            return n1 / n2
+           break
         default:
             return "How did you do that?"
+            break
    }
 } 

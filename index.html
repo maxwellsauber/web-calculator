@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>My Super Simple Calculator</title>
+    <meta name="description" content="This page allows you to add two numbers together">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Let's Calculate Some Numbers!</h1>
+
+    <form id="my-calculator">
+        <label for="num-one">Number One</label>
+        <input type="text" name="num-one" id="num-one" placeholder="Enter a number">
+    
+        <label for="num-operator">Operator</label>
+        <select  name="num-operator" id="num-operator">
+            <option value="add" selected >+</option>
+            <option value="subtract">-</option>
+            <option value="multiply">X</option>
+            <option value="devide"> / </option>
+        </select>
+
+        <label for="num-two">Number Two</label>
+        <input type="text" name="num-two" id="num-two" placeholder="Enter a number">
+
+        <input type="submit"></input>
+    </form>
+
+    <div id="result">Your result will appear here</div>
+
+    <script src="js.js"></script>
+</body>
+
+</html>
